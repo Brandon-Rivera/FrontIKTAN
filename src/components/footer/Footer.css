@@ -1,0 +1,13 @@
+footer{
+    display:flexbox;
+    color: #BEC1C5;
+    background: #0C0E1C;
+    position: absolute;
+    top:100%;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    margin: 10rem auto;
+
+}

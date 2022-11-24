@@ -1,0 +1,33 @@
+.header_container{
+    background-color: #0C0E1C;
+    color: #BEC1C5;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 30px;
+    display: inline-block;
+}
+.header_container .Header-logo{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -8px;
+    object-fit: contain;
+    left: 48%;
+}
+
+.header_container .header_navbar a{
+    padding-inline: 120px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+}
+
+.header_container .header_navbar a:hover{
+    background-color: black;
+}
+
