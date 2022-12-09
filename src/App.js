@@ -1,23 +1,22 @@
+import logo from './logo.svg';
 import './App.css';
-import Header from './components/header/Header';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from './pages/AboutIktan/About';
-import Gallery from './pages/Gallery/Gallery';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavBar } from "./components/NavBar";
+import { Banner } from "./components/Banner";
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-            <>
-                <Router>
-                    <Routes>
-                        <Route path="/" element={<Header />} />
-                        <Route path="/About" element={<About />} />
-                        <Route path="/" element={<About />} />
-                        <Route path="/Gallery" element={<Gallery/>} />
-                    </Routes>
-                </Router>
-            </>
+      <NavBar />
+      <Banner />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
