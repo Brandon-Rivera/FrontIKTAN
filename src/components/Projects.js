@@ -14,17 +14,17 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: "https://scontent.fmex31-1.fna.fbcdn.net/v/t39.30808-6/283022174_2170631539768250_2146494412459273831_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeE_18mzoSHTgGW72ArMdHbZuWuJWuqdDvW5a4la6p0O9WQddbnIB9F7_E4lLHFhaV7clFx-8HqMs5JVFgD3ab2K&_nc_ohc=cdtPImjPTPkAX9mFC9Y&_nc_ht=scontent.fmex31-1.fna&oh=00_AfDB5NBzpfKlCnfo4o3rNls4lLWEQLgZjxGhYiOxStZfAQ&oe=639A4B76",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: "https://scontent.fmex31-1.fna.fbcdn.net/v/t1.6435-9/121690890_1711316445699764_5853211874643973442_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGz8ObDfXwws0IlKANVtoFFL-nHe-rmnEgv6cd76uacSG8kekWCfQLfjvFG3zKZqYrhIPyX8J18CLP2njYicZ-s&_nc_ohc=Oou0C82qopsAX_LivTG&_nc_ht=scontent.fmex31-1.fna&oh=00_AfDFRYHf4jLNqdwKxiyHX2Bn2a_duTlRrrks2cZVCJVZUg&oe=63BCC32A",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: "https://scontent.fmex31-1.fna.fbcdn.net/v/t1.6435-9/121776287_1711315462366529_9081419039417406975_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHZU1uMEDfDVX0aXhptD_oPMuHfkMFyClQy4d-QwXIKVAfpUyrb16RcXjjHUDcYqQlYJTVantIHBMxcgTcp4QUI&_nc_ohc=alpN0VAaiPEAX8rJZOt&_nc_ht=scontent.fmex31-1.fna&oh=00_AfAOoaoIhJ0-uoepFSUyba1xZdQwzVtUrlaimo4oA9FnSA&oe=63BC9A1F",
     },
     {
       title: "Business Startup",
