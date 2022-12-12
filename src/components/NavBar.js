@@ -9,8 +9,11 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 import "./NavBar.css";
+import { useNavigate } from "react-router-dom";
+
 
 export const NavBar = () => {
+  const navigate = useNavigate();
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
@@ -34,7 +37,6 @@ export const NavBar = () => {
   }
 
   return (
-    <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
@@ -45,7 +47,7 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>About Us</Nav.Link>
+              <Nav.Link onClick={()=>navigate("/")} className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}>About Us</Nav.Link>
               <Nav.Link href="#project" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Objetive</Nav.Link>
               {/*<Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Rover Analysis</Nav.Link>*/}
             </Nav>
@@ -55,13 +57,12 @@ export const NavBar = () => {
                 <a href="https://www.facebook.com/IKTANRoving" target="_blank"><img src={navIcon2} alt=""/></a>
                 <a href="https://www.instagram.com/iktan_roving/" target="_blank"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Rover Analysis</span></button>
-              </HashLink>
+              <a>
+                <button onClick={()=>navigate("/RoverAnalysis")} className="vvd"><span>Rover Analysis</span></button>
+              </a>
             </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </Router>
   )
 }
