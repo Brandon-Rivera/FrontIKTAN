@@ -13,7 +13,7 @@ function RoverAnalysis() {
     const navigate = useNavigate();
     return (
         <div className="Home-container">
-            <NavBar />
+            <NavBar/>
             <Footer/>
         </div>
     );

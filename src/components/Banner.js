@@ -4,10 +4,12 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { useNavigate } from "react-router-dom";
 
 import "./Banner.css";
 
 export const Banner = () => {
+  const navigate = useNavigate();
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
@@ -60,7 +62,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to IKTAN Roving</span>
                 <h1>{`About`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "IKTAN", "Our Team", "Us" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Team of Mexican students that promotes the participation of young people in high impact engineering projects. We have competed for 10 years in the NASA Human Exploration Rover Challenge competition, we hold the first place prize in the 2022 edition.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => navigate("/RoverAnalysis")}>Rover Analysis<ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
