@@ -5,6 +5,7 @@ import { Banner } from "../components/Banner";
 import { Skills } from "../components/Skills";
 import { Projects } from "../components/Projects";
 import { Contact } from "../components/Contact";
+import { Grafana } from "../components/Grafana";
 import { Controller } from "react-bootstrap-icons";
 import { NavBar } from "../components/NavBar";
 
@@ -14,6 +15,7 @@ function RoverAnalysis() {
     return (
         <div className="Home-container">
             <NavBar/>
+            <Grafana/>
             <Footer/>
         </div>
     );
