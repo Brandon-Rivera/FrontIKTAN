@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/luna.png";
+import lunaImg from "../assets/img/luna.png";
+import marteImg from "../assets/img/marte.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -60,7 +62,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to IKTAN Roving</span>
-                <h1>{`About`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "IKTAN", "Our Team", "Us" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>About IKTAN</h1>
                   <p>Team of Mexican students that promotes the participation of young people in high impact engineering projects. We have competed for 10 years in the NASA Human Exploration Rover Challenge competition, we hold the first place prize in the 2022 edition.</p>
                   <button onClick={() => navigate("/RoverAnalysis")}>Rover Analysis<ArrowRightCircle size={25} /></button>
               </div>}
@@ -70,7 +72,8 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={lunaImg} alt="Header Img"/>
+                  <img src={marteImg} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>
