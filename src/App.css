@@ -86,7 +86,9 @@ p.danger {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-image: url("./assets/img/galaxy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .project h2 {
 	font-size: 45px;
@@ -164,7 +166,7 @@ p.danger {
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #0c08e9 -5.91%, #2f90bd 111.58%);
-  opacity: 0.85;
+  opacity: 0.6;
   position: absolute;
   width: 100%;
   height: 0;
