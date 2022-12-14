@@ -131,7 +131,7 @@ p.danger {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #0c08e9 -5.91%, #2f90bd 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -163,7 +163,7 @@ p.danger {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #0c08e9 -5.91%, #2f90bd 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
