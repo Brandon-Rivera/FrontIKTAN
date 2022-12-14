@@ -7,6 +7,7 @@ import { Projects } from "../components/Projects";
 import { Contact } from "../components/Contact";
 import { Controller } from "react-bootstrap-icons";
 import { NavBar } from "../components/NavBar";
+import { MainBanner } from "../components/MainBanner";
 
 function Home() {
     console.log("Hello");
@@ -14,6 +15,7 @@ function Home() {
     return (
         <div className="Home-container">
             <NavBar />
+            <MainBanner/>
             <Banner/>
             <Projects/>
             <Footer/>
