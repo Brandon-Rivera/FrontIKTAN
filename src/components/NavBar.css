@@ -11,8 +11,11 @@ nav.navbar {
     background-image: url('../assets/img/galaxia2.png');
     border-bottom: 6px solid white;
   }
-  nav.navbar a.navbar-brand {
-      width: 10%;
+  nav.navbar a.navbar-brand{
+    width: 6%;
+  }
+  nav.navbar a.team-name-nav{
+    top: 20%;
   }
   nav.navbar .navbar-nav .nav-link.navbar-link {
     font-weight: 400;
@@ -34,6 +37,7 @@ nav.navbar {
       display: inline-block;
       margin-left: 14px;
   }
+
   .social-icon a {
       width: 42px;
       height: 42px;
@@ -46,6 +50,19 @@ nav.navbar {
       line-height: 1;
       border: 1px solid rgba(255, 255, 255, 0.5);
   }
+  a.team-name-nav{
+    width: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    padding-top: 1.2%;
+  }
+
+  @media only screen and (max-width:992px){
+  a.team-name-nav{
+    display: none;
+  }
+}
   .social-icon a::before {
       content: "";
       width: 42px;
@@ -74,9 +91,9 @@ nav.navbar {
     padding: 18px 34px;
     font-size: 18px;
     margin-left: 18px;
-      position: relative;
-      background-color: transparent;
-      transition: 0.3s ease-in-out;
+    position: relative;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
   }
   .navbar-text button span {
     z-index: 1;

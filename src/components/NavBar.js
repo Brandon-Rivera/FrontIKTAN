@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/iktanLogo.png';
+import logo from '../assets/img/iktanLogo2.png';
 import navIcon1 from '../assets/img/tiktok.png';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -45,12 +45,14 @@ export const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
+          <a className="team-name-nav">IKTAN ROVING</a>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home" onClick={()=>navigate("/")} className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}>About Us</Nav.Link>
               <Nav.Link href="#objective" onClick={() => navigate("/")} className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}>Objective</Nav.Link>
               {/*<Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Rover Analysis</Nav.Link>*/}
             </Nav>
+            
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.tiktok.com/@iktan_roving" target="_blank"><img src={navIcon1} alt="" /></a>
