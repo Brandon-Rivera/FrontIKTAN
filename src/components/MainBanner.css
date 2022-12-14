@@ -8,9 +8,30 @@
     background-repeat: no-repeat;
 }
 
+.MainBanner-container h1{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1%;
+    letter-spacing: 5px;
+}
+
+.MainBanner-container h2{
+    text-align: center;
+    font-size: 60px;
+}
+
+
 .MainBanner-container .logo-iktan{
     position: relative;
-    width: auto;
-    top: 40%;
-    left: 35%;
+    padding-top: 3%;
+    width: 220px;
+    left: 36%;
 }
+.MainBanner-container .logo-tec{
+    position: relative;
+    padding-top: 2%;
+    width: 140px;
+    filter: invert(100%);
+    left: 38%;
+}
+
