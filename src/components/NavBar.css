@@ -8,7 +8,8 @@ nav.navbar {
   }
   nav.navbar.scrolled {
     padding: 0px 0;
-    background-image: url('../assets/img/banner-bg.png');
+    background-image: url('../assets/img/galaxia2.png');
+    border-bottom: 6px solid white;
   }
   nav.navbar a.navbar-brand {
       width: 10%;
