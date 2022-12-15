@@ -8,6 +8,7 @@ import { Contact } from "../components/Contact";
 import { Controller } from "react-bootstrap-icons";
 import { NavBar } from "../components/NavBar";
 import { MainBanner } from "../components/MainBanner";
+import { Objective } from "../components/Objective";
 
 function Home() {
     console.log("Hello");
@@ -16,6 +17,7 @@ function Home() {
         <div className="Home-container">
             <NavBar />
             <Banner/>
+            <Objective/>
             <Projects/>
             <Footer/>
         </div>
