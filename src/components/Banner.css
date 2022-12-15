@@ -49,17 +49,20 @@
   .banner button:hover svg {
     margin-left: 25px;
   }
-  .banner img:nth-child(2){
-    height: 300px;
-    width: 500px;
-    animation: updown 10s linear infinite;
-  }
+
   .banner img:nth-child(1){
     position: absolute;
     right: 15%;
     height: 200px;
     width: 220px;
     animation: updown 8s linear infinite;
+  } 
+  
+  .banner img:nth-child(2){
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    animation: updown 10s linear infinite;
   }
   @keyframes updown {
       0% {

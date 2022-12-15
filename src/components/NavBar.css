@@ -48,6 +48,13 @@ nav.navbar {
       line-height: 1;
       border: 1px solid rgba(255, 255, 255, 0.5);
   }
+
+  .social-icon a:nth-child(1) img{
+    width: 40%;
+    height: 40%;
+    filter: invert();
+  }
+
   a.team-name-nav{
     width: 30px;
     text-decoration: none;
@@ -172,12 +179,12 @@ nav.navbar {
 
   nav.navbar.scrolled {
     padding: 0px 0;
-    background-color: white;
+    background-color: #19191bc7;
   }
 
   nav.navbar.scrolled a.navbar-brand{
     width: 6%;
-    filter: invert(100%);
+    /* filter: invert(100%); */
   }
 
   nav.navbar.scrolled a.team-name-nav{
