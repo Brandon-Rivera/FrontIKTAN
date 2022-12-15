@@ -24,9 +24,9 @@ export const Objective = () => {
                 <p>Build a Rover where two pilots are in charge of going through a track with obstacles that resemble extraterrestrial surfaces, where our goal is to travel the road in less than 7 minutes fulfilling the different tasks to get points in the competition.</p>
             </Container>
         </section>
-        <section className="Vission" id="vission">
+        <section className="Vision" id="vision">
             <Container>
-            <h2>Vission</h2>
+            <h2>Vision</h2>
                 <p>Build a Rover where two pilots are in charge of going through a track with obstacles that resemble extraterrestrial surfaces, where our goal is to travel the road in less than 7 minutes fulfilling the different tasks to get points in the competition.</p>
             </Container>
         </section>

@@ -1,14 +1,68 @@
+.container-objective {
+    margin-bottom: 60px;
+}
+
+.container-objective  section{
+    margin-bottom: 70px;
+}
+
 .container-objective p{
     color: #B8B8B8;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px auto 30px auto;
     text-align: center;
-    width: 56%;
+    width: 43%;
 }
 
 .container-objective h2{
     font-size: 45px;
 	font-weight: 700;
     text-align: center;
+}
+
+
+.container-objective section.Mission, section.Vision {
+    margin-top: 30px;
+    display: inline-block;
+    width: 50%;
+}
+
+.container-objective section.Mission p, section.Vision p {
+    width: 65%;
+}
+
+
+.container-objective section.Objective {
+    animation: updownA 3s linear infinite;
+}
+.container-objective section.Mission {
+    animation: updownA 4.5s linear infinite;
+}
+.container-objective section.Vision {
+    animation: updownB 4.5s linear infinite;
+}
+
+@keyframes updownA {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes updownB {
+    0% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
 }
