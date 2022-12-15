@@ -31,9 +31,12 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: black !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
+  display: table;
+  height: 100%;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
