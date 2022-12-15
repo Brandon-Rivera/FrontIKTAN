@@ -61,8 +61,8 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to IKTAN Roving</span>
-                <h1>About IKTAN</h1>
+                <span className="tagline">NASA Human Exploration Rover Challenge</span>
+                <h1>Welcome to IKTAN Roving</h1>
                   <p>Team of Mexican students that promotes the participation of young people in high impact engineering projects. We have competed for 10 years in the NASA Human Exploration Rover Challenge competition, we hold the first place prize in the 2022 edition.</p>
                   <button onClick={() => navigate("/RoverAnalysis")}>Rover Analysis<ArrowRightCircle size={25} /></button>
               </div>}
