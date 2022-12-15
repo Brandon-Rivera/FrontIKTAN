@@ -6,17 +6,15 @@ nav.navbar {
     z-index: 9999;
     transition:  0.32s ease-in-out;
   }
-  nav.navbar.scrolled {
-    padding: 0px 0;
-    background-image: url('../assets/img/galaxia2.png');
-    border-bottom: 6px solid white;
-  }
+
   nav.navbar a.navbar-brand{
     width: 6%;
   }
+ 
   nav.navbar a.team-name-nav{
     top: 20%;
   }
+ 
   nav.navbar .navbar-nav .nav-link.navbar-link {
     font-weight: 400;
     color: #fff !important;
@@ -57,7 +55,13 @@ nav.navbar {
     font-size: x-large;
     padding-top: 1.2%;
   }
-
+  .scrolled a.team-name-nav{
+    width: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    padding-top: 1.2%;
+  }
   @media only screen and (max-width:992px){
   a.team-name-nav{
     display: none;
@@ -164,3 +168,19 @@ nav.navbar {
       border-color: transparent;
   }
   
+/*--- SCROLLED --- */
+
+  nav.navbar.scrolled {
+    padding: 0px 0;
+    background-color: white;
+  }
+
+  nav.navbar.scrolled a.navbar-brand{
+    width: 6%;
+    filter: invert(100%);
+  }
+
+  nav.navbar.scrolled a.team-name-nav{
+    top: 20%;
+    display:none;
+  }

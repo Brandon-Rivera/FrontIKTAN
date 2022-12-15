@@ -15,7 +15,6 @@ function Home() {
     return (
         <div className="Home-container">
             <NavBar />
-            <MainBanner/>
             <Banner/>
             <Projects/>
             <Footer/>
