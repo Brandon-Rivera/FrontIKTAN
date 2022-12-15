@@ -62,10 +62,13 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">Telemetry</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Manufacture</Nav.Link>
+                      <Nav.Link eventKey="third">Tools</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="fourth">Past editions</Nav.Link>
+                      <Nav.Link eventKey="fourth">Manufacturing</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="fifth">Past editions</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -76,9 +79,12 @@ export const Projects = () => {
 
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      
+
                     </Tab.Pane>
                     <Tab.Pane eventKey="fourth">
+
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="fifth">
                     <Row>
                         {
                           projects.map((project, index) => {
@@ -91,7 +97,7 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                    </Tab.Pane>
+                  </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
               </div>}
