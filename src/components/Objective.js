@@ -4,13 +4,14 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { useNavigate } from "react-router-dom";
+import "./Objective.css";
 
 
 export const Objective = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className="container-objective">
         <section className="Objective" id="objective">
             <Container>
             <h2>Objective</h2>
