@@ -48,9 +48,9 @@ export const NavBar = () => {
           <a className="team-name-nav">IKTAN ROVING</a>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" onClick={()=>navigate("/")} className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}>About Us</Nav.Link>
-              <Nav.Link href="#objective" onClick={() => navigate("/")} className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}>Objective</Nav.Link>
-              {/*<Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Rover Analysis</Nav.Link>*/}
+              <Nav.Link href="#home" onClick={()=>navigate("/")} className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}>Home</Nav.Link>
+              <Nav.Link href="#objective" onClick={() => navigate("/")} className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}>About Us</Nav.Link>
+              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Gallery</Nav.Link>
             </Nav>
             
             <span className="navbar-text">
